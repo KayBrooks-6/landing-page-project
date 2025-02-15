@@ -5,9 +5,6 @@ body {
     
   }
 
-.container-h1,.container-h2{
-    /* display: flex; */
-}
 
 .header {
     background-color: #1f2937;
@@ -28,16 +25,45 @@ body {
     color: #e5e7eb;
 
 }
+/* 9am today feb15 see below */
 
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+
+}
+
+.s1-title {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.s1-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.info {
+    max-width: 200px;
+    border: .25em solid #3882f6;
+    border-radius: 1rem;
+}
+/* I worked on this all right now 9am */
 ul {
     text-decoration: none;
 }
 
-.s1,.s3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .s2{
     background-color: #e5e7eb;
     display: flex;
