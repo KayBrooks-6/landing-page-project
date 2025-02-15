@@ -50,16 +50,29 @@ ul {
     
 }
 
-.c3-container {
+.s3-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882f6;
+    max-width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 } 
 /* the c3-container needs work.  */
 
 .sign-up,.header-button {
     background-color: #3882f6;
     color: white;
+    height: 16px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
 }
 
 .footer {
