@@ -2,17 +2,56 @@ body {
     font-family: Roboto;
     margin: 0;
     min-height: 100vh;
-    
   }
 
 
 .header {
     background-color: #1f2937;
+    /* display: flex; */
+    
 }
 
 .logo {
     size: 24px;
     color: #f9faf8;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+.right,.left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-text,.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+/* .container-h2 { */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
 }
 .title {
     font-size: 48px;
@@ -20,11 +59,6 @@ body {
     font-weight: 900;
 }
 
-.header-text.right-links {
-    font-size: 18px;
-    color: #e5e7eb;
-
-}
 /* 9am today feb15 see below */
 
 
@@ -34,6 +68,8 @@ img {
     border-radius: 1rem;
 
 }
+
+/* body and sections inside it are below */
 
 .s1-title {
     margin-bottom: 32px;
@@ -59,9 +95,7 @@ img {
     border-radius: 1rem;
 }
 /* I worked on this all right now 9am */
-ul {
-    text-decoration: none;
-}
+
 
 
 .s2{
@@ -75,6 +109,14 @@ ul {
     color: #1f2937;
     
 }
+
+.thor {
+    text-align: end;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Section 3 below */
 
 .s3-container {
     display: flex;
