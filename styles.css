@@ -115,17 +115,23 @@ img {
 
 /* Section 3 below */
 
-.s3-container {
+.s3 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    padding: .5rem;
     align-items: center;
-    background-color: #3882f6;
-    max-width: 480px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    background-color: #82a5df;
+    text-align: center;
+    margin: 0;
+    border-radius: 2em;
+    gap: .5em;
 } 
-/* the c3-container needs work.  */
 
+.s3-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 .sign-up,.header-button {
     background-color: #3882f6;
     color: white;
